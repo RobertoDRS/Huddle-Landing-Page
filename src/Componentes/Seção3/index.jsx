@@ -9,7 +9,7 @@ export default function Seção3(){
                 
                 <div id="div-textos-seção-3">
                     <h2>Conversas fluidas</h2>
-                    <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow. </p>
+                    <p>Não paginaria uma conversa na vida real, então porquê fazê-lo online? Os nossos fios têm um carregamento just-in-time para um fluxo mais natural. </p>
                 </div> 
             </div>
 

@@ -1,0 +1,92 @@
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 5% 5%;
+    position: relative;
+}
+
+footer::before{
+    content: "";
+    background-image: url('../../../public/assets/bg-footer-top-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: -155px;
+    right: 0;
+    left: 0;
+}
+
+
+
+#div-principal-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.div-secundária-footer{
+    width: 45%;
+}
+
+#logo-footer{
+    background-color: rgb(255, 255, 255);
+    padding: 1% 4%;
+    border-radius: 5px;
+}
+
+#p1-primeira-div-secundária-footer{
+    margin: 6% 0;
+}
+
+.div-contato-footer{
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.div-contato-footer img{
+    margin-right: 3%;
+}
+
+#div-redes-sociais{
+    margin-top: 15%;
+}
+
+#div-redes-sociais img{
+    height: 35px;
+    margin-right: 5%;
+}
+
+#div-redes-sociais img:hover{
+    opacity: 0.7;
+}
+
+#segunda-div-secundária-footer h3{
+    font-size: 20px;
+}
+
+#segunda-div-secundária-footer p{
+    margin: 6% 0;
+}
+
+#segunda-div-secundária-footer input{
+    height: 37px;
+    width: 60%;
+    border-radius: 5px;
+    margin-right: 5%;
+}
+
+#segunda-div-secundária-footer button{
+    background-color: hsl(322, 100%, 66%);
+    height: 37px;
+    color: white;
+    padding: 1% 5%;
+    border-radius: 5px;
+}
+
+#segunda-div-secundária-footer button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
