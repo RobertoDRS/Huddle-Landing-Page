@@ -1,0 +1,12 @@
+#botão-começar{
+    background-color: hsl(322, 100%, 66%);
+    text-decoration: none;
+    padding: 1% 5%;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 1px 1px 5px  rgb(143, 141, 141);
+}
+
+#botão-começar:hover{
+    opacity: 0.7;
+}

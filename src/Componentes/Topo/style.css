@@ -1,0 +1,19 @@
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 7%;
+}
+
+header a{
+    border: 1px solid hsl(321, 100%, 78%);
+    color: hsl(321, 100%, 78%);
+    text-decoration: none;
+    padding: 0.5% 1%;
+    border-radius: 30px; 
+}
+
+header a:hover{
+    opacity: 0.7;
+    cursor:pointer;
+}

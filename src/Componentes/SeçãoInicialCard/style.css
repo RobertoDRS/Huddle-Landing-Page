@@ -1,0 +1,18 @@
+.card-seção-incial{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-seção-incial img{
+    height: 30px;
+    width: 40px;
+}
+
+.card-seção-incial span{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card-seção-incial p{
+    color: rgb(190, 188, 188);
+}

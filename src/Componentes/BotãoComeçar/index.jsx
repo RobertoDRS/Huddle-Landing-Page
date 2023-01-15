@@ -3,6 +3,6 @@ import './style.css';
 
 export default function BotãoComeçar(){
     return(
-        <a href="#">Comece de graça</a>
+        <a id="botão-começar" href="#">Comece de graça</a>
     );
 }

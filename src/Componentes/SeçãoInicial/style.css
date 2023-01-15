@@ -1,0 +1,36 @@
+section#inicial{
+    padding: 7% 5%;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    font-weight:bold;
+}
+
+section#inicial p{
+    margin: 3% auto;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#paragrafo-1{
+    width: 40%;
+}
+
+#div-banner{
+    margin: 8% auto;
+    background-image: url('../../../public/assets/screen-mockups.svg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 75vh;
+    width: 80%;
+}
+
+#div-cards-inicial{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
