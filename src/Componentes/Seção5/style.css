@@ -1,0 +1,11 @@
+#seção-5{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#seção-5 h2{
+    font-size: 25px;
+    margin-bottom: 3%;
+}

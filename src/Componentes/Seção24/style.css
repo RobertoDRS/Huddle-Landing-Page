@@ -1,0 +1,73 @@
+#seção-2-4{
+    position: relative;
+    background-color: hsl(207, 100%, 98%);
+    margin: 13% 0;
+}
+
+#div-principal-seção-2-4{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    height: 60vh;
+    width: 85%;
+    margin: 0 auto;
+    background-color: hsl(207, 100%, 98%);
+    padding-top: 3%;
+}
+
+#div-principal-seção-2-4 div{
+    height: 90%;
+    width: 40%;
+}
+
+#div-textos-seção-2-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#div-textos-seção-2-4 h2{
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+
+
+.imagem-seção-2{
+    background-image: url('../../../public/assets/illustration-grow-together.svg');
+}
+
+.imagem-seção-4{
+    background-image: url('../../../public/assets/illustration-your-users.svg');
+}
+
+.imagem-seção-2, .imagem-seção-4{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#seção-2-4::before{
+    content: "";
+    background-image: url('../../../public/assets/bg-section-top-desktop-1.svg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100vw;
+    height: 200px;
+    position: absolute;
+    top: -170px;
+    left: 0;
+    right: 0;
+}
+
+#seção-2-4::after{
+    content: "";
+    background-image: url('../../../public/assets/bg-section-bottom-desktop-1.svg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100vw;
+    height: 200px;
+    position: absolute;
+    bottom: -170px;
+    left: 0;
+    right: 0;
+}

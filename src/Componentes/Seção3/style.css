@@ -1,0 +1,31 @@
+#div-principal-seção-3{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    height: 60vh;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+#div-principal-seção-3 div{
+    height: 90%;
+    width: 40%;
+}
+
+#div-textos-seção-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#div-textos-seção-3 h2{
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+#div-img-seção-3{
+    background-image: url('../../../public/assets/illustration-flowing-conversation.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
