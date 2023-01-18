@@ -10,3 +10,10 @@
 #botão-começar:hover{
     opacity: 0.7;
 }
+
+@media only screen and (max-width: 425px){
+    #botão-começar{
+        padding: 3% 10%;
+
+    }
+}

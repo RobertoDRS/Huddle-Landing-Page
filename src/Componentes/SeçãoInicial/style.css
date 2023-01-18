@@ -34,3 +34,35 @@ section#inicial p{
     width: 60%;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 425px){
+    section#inicial{
+        margin-top: 35px;
+        margin-bottom: 0px;
+    }
+
+    h1{
+        font-size: 25px;
+        width: 95%;
+        margin: 35px auto;
+    }
+
+    #paragrafo-1{
+        width: 90%;
+    }
+
+    section#inicial p{
+        margin-bottom: 17%;
+    }
+
+
+    #div-banner{
+        margin: 0 auto;
+        width: 90%;
+        height: 68vh;
+    }
+
+    #div-cards-inicial{
+        flex-direction: column;
+    }
+}

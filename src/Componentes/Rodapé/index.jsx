@@ -28,7 +28,7 @@ export default function Rodapé(){
                     <p>Para receber dicas sobre como fazer crescer a sua comunidade, inscreva-se no nosso boletim de notícias semanal. Nunca lhe enviaremos spam nem lhe transmitiremos o seu endereço de correio electrónico</p>
                     
                     <form action="">
-                        <input type="email" name="" id="" />
+                        <input type="email" name="" id="" required/>
                         <button type="submit">Inscreva-se</button>
                     </form>
                 </div>

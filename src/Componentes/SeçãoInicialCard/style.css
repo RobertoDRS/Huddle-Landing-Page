@@ -16,3 +16,17 @@
 .card-seção-incial p{
     color: rgb(190, 188, 188);
 }
+
+@media only screen and (max-width: 425px){
+    
+    .card-seção-incial span{
+        font-size: 45px;
+    }
+
+    .card-seção-incial img{
+        margin-left: 35px;
+        height: 25px;
+        width: 30px;
+    }
+
+}

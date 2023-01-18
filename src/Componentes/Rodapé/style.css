@@ -90,3 +90,55 @@ footer::before{
     cursor: pointer;
     opacity: 0.7;
 }
+
+
+
+@media only screen and (max-width: 425px){
+    footer{
+        margin-top: 100px;
+    }
+
+    footer::before{
+        background-image: url('../../../public/assets/bg-footer-top-mobile.svg');
+        top: -5%;
+    }
+
+    #div-principal-footer{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .div-secundária-footer{
+        width: 90%;
+        margin: 50px auto;
+        position: relative;
+    }
+
+    #segunda-div-secundária-footer input{
+        width: 100%;
+    }
+
+    #segunda-div-secundária-footer button{
+        margin-top: 15px;
+        position: absolute;
+        right: 0;
+    }
+
+    #p1-primeira-div-secundária-footer{
+        margin: 8% 0;
+    }
+
+    
+    #segunda-div-secundária-footer p{
+        margin: 8% 0;
+    }
+
+    #div-redes-sociais{
+        margin-top: 15%;
+    }
+
+    #div-redes-sociais img{
+        height: 30px;
+    }
+   
+}
