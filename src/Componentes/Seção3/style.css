@@ -57,6 +57,20 @@
     #div-textos-seção-3 p{
         font-size: 15px;
     }
+}
 
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    #div-principal-seção-3{
+        align-items: center;
+        width: 90%;
+        height: 35vh;
+    }
+}
 
+@media only screen and (min-width: 769px) and (max-width: 1440px){
+    #div-principal-seção-3{
+        align-items: center;
+        width: 90%;
+        height: 40vh;
+    }
 }

@@ -139,6 +139,19 @@ footer::before{
 
     #div-redes-sociais img{
         height: 30px;
+    }  
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    footer::before{
+        top: -80px;
     }
-   
+
+    #segunda-div-secundária-footer button{
+        margin-top: 20px;
+    }
+
+    #segunda-div-secundária-footer input{
+        width: 100%;
+    }
 }
